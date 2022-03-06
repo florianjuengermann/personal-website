@@ -30,9 +30,11 @@ function Education() {
         >
           B.S. Computer Science, Minor in Physics, High Distinction (Grade 1.1)
           <br />
-          Bachelor Thesis: <i>Learning Algebraic Predicates for Explainable Controllers.</i>
+          Bachelor Thesis:{" "}
+          <i>Learning Algebraic Predicates for Explainable Controllers.</i>
           <br />
-          Teaching assistant for Functional Programming and Theory of Computation.
+          Teaching assistant for Functional Programming and Theory of
+          Computation.
         </CVEntry>
       </div>
     </div>
