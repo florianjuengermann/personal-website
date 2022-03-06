@@ -30,7 +30,7 @@
 
 .background {
   width: 100%;
-  background-color: var(--col-gray-dark);
+  background-color: var(--col-dark);
 }
 
 .container {
@@ -38,11 +38,14 @@
   max-width: var(--body-width);
   margin: 0 auto;
   padding: 0 20px;  
-  padding: 50px 20px;
+  padding: 40px 20px 50px 20px;
+  border-top: solid 1.5px var(--col-gray-dark);
 }
 
 h1.page-heading {
+  color: white;
   font-size: 3rem;
-  font-weight: 500;
-  color: var(--col-dark);
+  font-weight: 300;
+  padding-bottom: 10px;
+  /*color: var(--col-dark);*/
 }

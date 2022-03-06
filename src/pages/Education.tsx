@@ -3,7 +3,7 @@ import CVEntry from "../components/CVEntry";
 
 function Education() {
   return (
-    <div className="background" style={{ backgroundColor: "var(--col-gray-dark)" }}>
+    <div className="background">
       <div className="container items-center flex-col flex">
         <h1 className="page-heading">Education</h1>
         <CVEntry
