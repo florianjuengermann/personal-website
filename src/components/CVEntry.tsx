@@ -16,7 +16,7 @@ const CVEntry = ({ title, icon, time, children }: CVEntryProps) => {
       </div>
       <div className="basis-full md:basis-40 my-5 md:order-3">{time}</div>
       <div className="flex-grow px-10 mb-10 md:mb-0">
-        <div className="text-left font-bold">{title}</div>
+        <div className="text-left font-bold text-xl">{title}</div>
         <div className="text-left">{children}</div>
       </div>
     </div>
