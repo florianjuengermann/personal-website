@@ -1,12 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import TitlePage from './pages/TitlePage';
+import React from "react";
+import "./App.css";
+import TitlePage from "./pages/TitlePage";
+import Education from "./pages/Education";
 
 function App() {
   return (
     <div className="App">
-     <TitlePage/>
+      <TitlePage />
+      <Education />
     </div>
   );
 }

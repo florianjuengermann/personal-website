@@ -40,3 +40,9 @@
   padding: 0 20px;  
   padding: 50px 20px;
 }
+
+h1.page-heading {
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--col-dark);
+}
