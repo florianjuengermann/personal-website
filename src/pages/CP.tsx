@@ -41,6 +41,7 @@ function CP() {
           Read my <a href="https://xorigin.tech/blog/hashcode">blog article</a>{" "}
           describing our experiences at the final.
         </HonorEntry>
+        <hr className="w-full border-transparent" />
         <HonorEntry
           title="International Collegiate Programming Contest (ICPC)"
           icon="img/icpc.png"
@@ -55,9 +56,11 @@ function CP() {
             <li>Gold medal at Northwestern Europe Regional Contest</li>
           </ul>
         </HonorEntry>
+        <hr className="w-full border-transparent" />
         <HonorEntry
           title="International Olympiad in Informatics (IOI)"
           icon="img/ioi.png"
+          iconClass="scale-75"
           hoverText="The IOI is an individual programming competition<br/> for high school students. <br/>Contestants have 5 hours to solve three problems."
         >
           <ul className="list-disc list-inside pl-2">
@@ -65,6 +68,7 @@ function CP() {
             <li>One of four German representatives</li>
           </ul>
         </HonorEntry>
+        <hr className="w-full border-transparent" />
         <HonorEntry
           title="Google Codejam"
           icon="img/codejam.png"

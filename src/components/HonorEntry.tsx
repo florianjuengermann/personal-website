@@ -5,15 +5,28 @@ import { MdInfoOutline } from "react-icons/md";
 interface HonorEntryProps {
   title: string;
   icon?: string;
+  iconClass?: string;
   hoverText?: string;
   children: React.ReactNode;
 }
 
-const HonorEntry = ({ title, icon, hoverText, children }: HonorEntryProps) => {
+const HonorEntry = ({
+  title,
+  icon,
+  hoverText,
+  iconClass,
+  children,
+}: HonorEntryProps) => {
   return (
     <div className="flex text-lg flex-wrap md:flex-nowrap w-full items-center my-6">
-      <div className="basis-full md:basis-56 flex justify-center">
-        {icon && <img src={icon} className="max-h-24" alt="" />}
+      <div className="w-full md:w-56 flex justify-center">
+        {icon && (
+          <img
+            src={icon}
+            className={"max-w-[300px] max-h-40 md:w-full " + iconClass}
+            alt=""
+          />
+        )}
       </div>
       <div className="flex-grow px-10 my-10 md:my-0">
         <div className="text-left font-bold text-xl flex items-center">
