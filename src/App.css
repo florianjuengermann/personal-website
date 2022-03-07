@@ -49,3 +49,7 @@ h1.page-heading {
   padding-bottom: 10px;
   /*color: var(--col-dark);*/
 }
+
+.project {
+  /*background-color: var(--col-gray-dark);*/
+}
