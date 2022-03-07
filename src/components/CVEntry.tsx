@@ -24,7 +24,7 @@ const CVEntry = ({
         {icon && <img src={icon} className="max-h-24" alt="" />}
       </div>
       <div className="basis-full md:basis-40 my-5 md:order-3">{time}</div>
-      <div className="flex-grow px-10 mb-10 md:mb-0">
+      <div className="flex-grow sm:px-10 mb-10 md:mb-0">
         <div className="text-left font-bold text-xl">
           {link && <a href={link}>{title}</a>}
           {!link && title}

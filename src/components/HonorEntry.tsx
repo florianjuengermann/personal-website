@@ -27,7 +27,7 @@ const HonorEntry = ({
           />
         )}
       </div>
-      <div className="flex-grow px-10 my-10 md:my-0">
+      <div className="flex-grow sm:px-10 my-10 md:my-0">
         <div className="text-left font-bold text-xl flex items-center">
           {title}{" "}
           <MdInfoOutline
