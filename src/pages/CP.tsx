@@ -46,7 +46,7 @@ function CP() {
           title="International Collegiate Programming Contest (ICPC)"
           icon="img/icpc.png"
           hoverText={
-            'The ICPC is "the oldest, largest,<br/> and most prestigious programming contest in the world".<br /> University teams solve 10-15 algorithmic problem is 5 hours.'
+            'The ICPC is "the oldest, largest,<br/> and most prestigious programming contest in the world".<br /> University teams solve 10-15 algorithmic problems in 5 hours.'
           }
         >
           <ul className="list-disc list-inside pl-2">

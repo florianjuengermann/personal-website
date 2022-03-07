@@ -16,15 +16,16 @@ function Projects() {
       <div className="container items-center flex-col flex">
         <h1 className="page-heading mb-10">Projects</h1>
         <Project
+          id="infinite-width-project"
           title="An Overview of Uncertainty Quantification Methods for Infinite Neural Networks"
           subtitle="Harvard AM 207 project with Maxime Laasri and Marius Merkle"
           icon="img/uncertainty.png"
           teaser={
             <>
-              Looking infinitely wide neural networks is a fruitful theoretical
-              approach to understanding machine learning. In this limit, the
-              networks' behavior can be precisely described by rigorous
-              mathematical tools.{" "}
+              Looking at infinitely wide neural networks is a fruitful
+              theoretical approach to understanding machine learning. In this
+              limit, the networks' behavior can be precisely described by
+              rigorous mathematical tools.{" "}
               <a href="https://arxiv.org/abs/2201.04746">Read the paper</a>
             </>
           }
@@ -35,8 +36,8 @@ function Projects() {
           icon="img/udemy.jpg"
           teaser={
             <>
-              Udemy course with 15,000+ students. Explaining algorithms that are
-              used in competitive programming and asked in job interviews.
+              Udemy course with 15,000+ students. Explaining algorithms for
+              competitive programming and job interviews.
               <br />
               <a href="https://www.udemy.com/course/algorithms-for-job-interviews-and-competitive-programming/">
                 Watch the course
@@ -84,7 +85,7 @@ function Projects() {
               Consider a database of users and movies where each entry in the
               matrix describes the rating a user gave a movie. This matrix is
               sparse and we are interested in predicting the missing entries. In
-              this project we consider the case where the missingness is not
+              this project, we consider the case where the missingness is not
               random. E.g. a user does not like horror movies and thus does not
               rate them.{" "}
               <a href="doc/OnCausalMatrixCompletion.pdf">Read the report</a>
@@ -97,10 +98,11 @@ function Projects() {
           icon="img/cubesat.png"
           teaser={
             <>
-              Worked on a satellite to orbit the earth on a low earth orbit.
-              Project goal was to take pictures and send them back to earth.
-              Additionally, we worked on optical data transmission using high
-              power LEDs that would allow higher bandswidths in clear nights.{" "}
+              Worked on a satellite to orbit the earth on a low earth orbit. The
+              project goal was to take pictures and send them back via optical
+              data transmission. High-power LEDs would allow higher bandwidth in
+              clear nights. I mainly worked on the ADCS system, running
+              simulations and developing embedded code.{" "}
               <a href="http://meginasat.org/?lang=en">Project Website</a>
             </>
           }
@@ -109,8 +111,17 @@ function Projects() {
           title="[Work in progress] Parallel Planetary Impact Simulation with SPH"
           subtitle="Harvard CS 205 project with Henry Jin, Alex Kashi, and Johannes Portik"
           icon="img/planet_collision.jpg"
-          teaser="Smoothed Particle Hytrodynamics (SPH) is a technique for simulating the physical behaviour of fluids or solid matter. It is based on simulating
-          individual particles and interpolating the fluid behavior from those. We use Highperformance Computing techniques such as OpenMP and MPI to speed up those simulations for simulating collisions of planets."
+          teaser={
+            <>
+              Smoothed Particle Hydrodynamics (SPH) is a technique for
+              simulating the physical behavior of fluids or solid matter. It is
+              based on simulating individual particles and interpolating the
+              fluid behavior from those. We use{" "}
+              <i>high performance computing</i>
+              techniques such as OpenMP and MPI to speed up those simulations
+              for simulating collisions on a planetary scale.
+            </>
+          }
         />
       </div>
     </div>

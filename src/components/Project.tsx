@@ -3,6 +3,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 interface ProjectProps {
   title: string;
+  id?: string;
   subtitle?: string;
   icon: string;
   iconClass?: string;
@@ -12,6 +13,7 @@ interface ProjectProps {
 
 const Project = ({
   title,
+  id,
   subtitle,
   icon,
   iconClass,
@@ -20,7 +22,10 @@ const Project = ({
 }: ProjectProps) => {
   const isVid = icon.endsWith(".mp4");
   return (
-    <div className="project flex text-lg w-full flex-wrap md:flex-nowrap my-6 relative items-center">
+    <div
+      className="project flex text-lg w-full flex-wrap md:flex-nowrap my-6 relative items-center"
+      id={id}
+    >
       {/* with background: p-8 rounded-[40px] overflow-hidden */}
       <div className="w-full md:w-44 shrink-0 flex justify-center">
         {!isVid && (

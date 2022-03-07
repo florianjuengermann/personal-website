@@ -8,30 +8,31 @@ function Work() {
         <h1 className="page-heading">Experience</h1>
         <CVEntry
           title="Tesla Autopilot"
+          subtitle="Incoming Intern"
           time="May '22 – Aug '22"
           location="Palo Alto, CA"
           icon="img/tesla.png"
         >
-          Incoming Motion Planning Engineer Intern
+          Motion Planning Engineer.
         </CVEntry>
         <CVEntry
           title="Trendify"
+          subtitle="Co-Founder & CTO"
           link="https://trendifyapp.com/"
           time="Oct '20 – Dec '21"
           location="Boston, MA"
           icon="img/trendify.png"
         >
-          Co-Founder & CTO <br />
-          Developed an image-based fashion searching app with 15,000 downloads
+          Developed an image-based fashion searching app with 15,000 downloads.
         </CVEntry>
         <CVEntry
           title="XOrigin"
+          subtitle="Co-Founder & CTO "
           link="https://xorigin.tech/"
           time="Jun '19 – Dec '21"
           location="Mayen, Germany"
           icon="img/xorigin.png"
         >
-          Co-Founder & CTO <br />
           Build full-stack software projects for other companies.
         </CVEntry>
       </div>
