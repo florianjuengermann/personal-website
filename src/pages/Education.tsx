@@ -35,7 +35,6 @@ function Education() {
           Quantum courses:{" "}
           <span data-tip="Quantum Computing by Peter Shor">18.435</span>,{" "}
           <span data-tip="Quantum Complexity Theory">6.845</span>
-          <ReactTooltip />
         </CVEntry>
         <CVEntry
           title="Technical University Munich"

@@ -5,6 +5,7 @@ import Education from "./pages/Education";
 import CP from "./pages/CP";
 import Work from "./pages/Work";
 import Projects from "./pages/Projects";
+import ReactTooltip from "react-tooltip";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Work />
       <CP />
       <Projects />
+      <ReactTooltip multiline={true} />
     </div>
   );
 }

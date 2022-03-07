@@ -1,5 +1,4 @@
 import React from "react";
-import ReactTooltip from "react-tooltip";
 import { MdInfoOutline } from "react-icons/md";
 
 interface HonorEntryProps {
@@ -37,7 +36,6 @@ const HonorEntry = ({
             scale={0.5}
           />
         </div>
-        <ReactTooltip multiline={true} />
         <div className="text-left">{children}</div>
       </div>
     </div>
