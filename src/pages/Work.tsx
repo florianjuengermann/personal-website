@@ -8,12 +8,13 @@ function Work() {
         <h1 className="page-heading">Experience</h1>
         <CVEntry
           title="Tesla Autopilot"
-          subtitle="Incoming Intern"
+          subtitle="Motion Planning Intern"
           time="May '22 – Aug '22"
           location="Palo Alto, CA"
           icon="img/tesla.png"
         >
-          Motion Planning Engineer.
+          Worked on real-time object prediction and maneuver planning. <br />
+          Directly presented work to Elon.
         </CVEntry>
         <CVEntry
           title="Trendify"

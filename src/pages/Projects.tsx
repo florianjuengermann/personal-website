@@ -31,6 +31,21 @@ function Projects() {
           }
         />
         <Project
+          id="algebraic-predicates"
+          title="Algebraically Explainable Controllers: Decision Trees and Support Vector Machines Join Forces"
+          subtitle="To be presented at ISoLA2022 Formal Methods Meet Machine Learning Track"
+          icon="img/algebraic_predicate.png"
+          teaser={
+            <>
+              Decision trees can be used as an explainable representation of
+              controllers (a.k.a. strategies, policies). To model more complex
+              systems, we show how to sythesize algebraic splitting predicates
+              for the decision tree nodes.{" "}
+              <a href="https://arxiv.org/abs/2208.12804">Read the paper</a>
+            </>
+          }
+        />
+        <Project
           title="Advanced Algorithms Video Course"
           subtitle="Hosted on Udemy"
           icon="img/udemy.jpg"
@@ -63,6 +78,22 @@ function Projects() {
           }
         />
         <Project
+          title="Quantum Zero-Knowledge Proofs"
+          subtitle="MIT 6.845 review paper with Taro Spirig"
+          icon="img/qzk.png"
+          teaser={
+            <>
+              Review of Broadbent et al.'s zero-knowledge proof system for all
+              problems in the complexity class QMA (the quantum analog to NP).
+              Also covering non-interactive zero-knowledge proof systems and
+              classical zero-knowledge arguments for QMA.{" "}
+              <a href="doc/quantum_zero_knowledge_proofs.pdf">
+                Read the report
+              </a>
+            </>
+          }
+        />
+        <Project
           title="Case Studies on Physics-Informed Neural Networks"
           subtitle="Harvard AM 205 project with Marius Merkle and Marcel Torne"
           icon="img/sound.mp4"
@@ -73,6 +104,37 @@ function Projects() {
               describes how well the differential equation is satisfied at
               certain sample points. <br />
               <a href="doc/PINNs.pdf">Read the report</a>
+            </>
+          }
+        />
+        <Project
+          title="Parallel Planetary Impact Simulation with SPH"
+          subtitle="Harvard CS 205 project with Henry Jin, Alex Kashi, and Johannes Portik"
+          icon="img/CS205.mp4"
+          teaser={
+            <>
+              Smoothed Particle Hydrodynamics (SPH) is a technique for
+              simulating the physical behavior of fluids or solid matter. It is
+              based on simulating individual particles and interpolating the
+              fluid behavior from those. We use{" "}
+              <i>high performance computing</i> techniques such as OpenMP and
+              MPI to speed up those simulations for simulating collisions on a
+              planetary scale.
+            </>
+          }
+        />
+        <Project
+          title="Improved Camera Pose Estimation for NeRFs with CNNs and Curriculum Learning"
+          subtitle="MIT 6.869 project with Marcel Torne"
+          icon="img/nerf.gif"
+          iconClass="w-[300px]"
+          teaser={
+            <>
+              Neural Radiance Fields (NeRF) solve the novel view synthesis
+              problem by using a differentiable renderer to train a neural
+              network to learn a 3d scene representation. We use curriculum
+              learning to improve camera pose estimation while jointly training
+              the NeRF. <a href="doc/nerfs.pdf">Read the report</a>
             </>
           }
         />
@@ -104,22 +166,6 @@ function Projects() {
               clear nights. I mainly worked on the ADCS system, running
               simulations and developing embedded code.{" "}
               <a href="http://meginasat.org/?lang=en">Project Website</a>
-            </>
-          }
-        />
-        <Project
-          title="[Work in progress] Parallel Planetary Impact Simulation with SPH"
-          subtitle="Harvard CS 205 project with Henry Jin, Alex Kashi, and Johannes Portik"
-          icon="img/planet_collision.jpg"
-          teaser={
-            <>
-              Smoothed Particle Hydrodynamics (SPH) is a technique for
-              simulating the physical behavior of fluids or solid matter. It is
-              based on simulating individual particles and interpolating the
-              fluid behavior from those. We use{" "}
-              <i>high performance computing</i>
-              techniques such as OpenMP and MPI to speed up those simulations
-              for simulating collisions on a planetary scale.
             </>
           }
         />

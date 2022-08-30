@@ -32,7 +32,9 @@ const CVEntry = ({
         <div className="text-left text-sm text-neutral-400 flex">
           {subtitle}
         </div>
-        <div className="text-left">{children}</div>
+        <div className="text-left">
+          <p>{children}</p>
+        </div>
       </div>
     </div>
   );

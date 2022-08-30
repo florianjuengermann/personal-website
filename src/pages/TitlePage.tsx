@@ -14,7 +14,10 @@ function TitlePage() {
           Florian Juengermann
         </h1>
         <h3 className="text-center text-neutral-300 text-2xl mb-10">
-          cs student <a href="https://seas.harvard.edu/">@harvard</a> <br />
+          cs grad student <a href="https://seas.harvard.edu/">@harvard</a>
+          <br />
+          autopilot <a href="https://www.tesla.com/AI">@telsa</a>
+          <br />
           foundations of ml, quantum computing, startups
         </h3>
         <div className="w-full max-w-lg flex justify-evenly">
