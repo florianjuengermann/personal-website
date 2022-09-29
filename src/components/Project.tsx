@@ -4,7 +4,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 interface ProjectProps {
   title: string;
   id?: string;
-  subtitle?: string;
+  subtitle?: React.ReactNode;
   icon: string;
   iconClass?: string;
   teaser: React.ReactNode;

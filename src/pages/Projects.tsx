@@ -33,7 +33,12 @@ function Projects() {
         <Project
           id="algebraic-predicates"
           title="Algebraically Explainable Controllers: Decision Trees and Support Vector Machines Join Forces"
-          subtitle="To be presented at ISoLA2022 Formal Methods Meet Machine Learning Track"
+          subtitle={
+            <>
+              {"To appear in the "}{" "}
+              <a href="https://www.springer.com/journal/10009">STTT journal</a>
+            </>
+          }
           icon="img/algebraic_predicate.png"
           teaser={
             <>
@@ -57,6 +62,22 @@ function Projects() {
               <a href="https://www.udemy.com/course/algorithms-for-job-interviews-and-competitive-programming/">
                 Watch the course
               </a>
+            </>
+          }
+        />
+        <Project
+          title="Distributed-DALLE"
+          subtitle="First price at HackBoston 2022 with Walden Yan"
+          icon="img/ddalle.jpg"
+          teaser={
+            <>
+              An art marketplace where individuals looking for bespoke artwork
+              can place a bounty, and creators leverage AI to generate
+              high-quality art to compete for the bounty. Built and deployed on
+              the <a href="https://klaytn.foundation">Klaytn blockchain</a>.
+              Live website at <a href="https://ddalle.xyz">ddalle.xyz</a>.
+              Source code available on{" "}
+              <a href="https://github.com/walnutwaldo/D-DALLE">GitHub</a>.
             </>
           }
         />
